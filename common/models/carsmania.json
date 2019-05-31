@@ -1,0 +1,26 @@
+{
+  "name": "carsmania",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "carName": {
+      "type": "string",
+      "required": true
+    },
+    "carDesc": {
+      "type": "string",
+      "required": true
+    },
+    "carImageUrl": {
+      "type": "string",
+      "required": true
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

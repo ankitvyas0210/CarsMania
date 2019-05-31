@@ -1,0 +1,3 @@
+Wed, 29 May 2019 03:03:54 GMT hsts deprecated The "includeSubdomains" parameter is deprecated. Use "includeSubDomains" (with a capital D) instead. at node_modules/loopback/lib/server-app.js:74:25
+Web server listening at: http://localhost:3000
+Browse your REST API at http://localhost:3000/explorer

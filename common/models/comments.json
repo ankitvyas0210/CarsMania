@@ -1,25 +1,28 @@
 {
-  "name": "carsmania",
+  "name": "comments",
   "base": "PersistedModel",
   "idInjection": true,
   "options": {
     "validateUpsert": true
   },
   "properties": {
-    "carName": {
+    "userId": {
       "type": "string",
       "required": true
     },
-    "carDesc": {
+    "carId": {
       "type": "string",
       "required": true
     },
-    "carImageUrl": {
-      "type": "string",
+    "isLike": {
+      "type": "boolean",
       "required": true
     },
-    "Comments": {
-      "type": "array"
+    "comment": {
+      "type": [
+        "string"
+      ],
+      "required": true
     }
   },
   "validations": [],

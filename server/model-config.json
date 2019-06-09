@@ -38,5 +38,9 @@
   "carsmania": {
     "dataSource": "db",
     "public": true
+  },
+  "comments": {
+    "dataSource": "db",
+    "public": true
   }
 }

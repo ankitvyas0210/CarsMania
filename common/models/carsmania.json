@@ -25,5 +25,10 @@
   "validations": [],
   "relations": {},
   "acls": [],
-  "methods": {}
+  "methods": {},
+  "scope": {
+    "include":[
+      "carId"
+    ]
+  }
 }

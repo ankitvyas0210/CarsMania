@@ -23,6 +23,9 @@
         "string"
       ],
       "required": true
+    },
+    "username": {
+      "type": "string"
     }
   },
   "validations": [],

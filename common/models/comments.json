@@ -16,14 +16,12 @@
       "required": true
     },
     "isLike": {
-      "type": "boolean",
-      "required": true
+      "type": "boolean"
     },
     "comment": {
       "type": [
         "string"
-      ],
-      "required": true
+      ]
     },
     "username": {
       "type": "string"

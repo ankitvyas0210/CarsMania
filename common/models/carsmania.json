@@ -17,9 +17,6 @@
     "carImageUrl": {
       "type": "string",
       "required": true
-    },
-    "Comments": {
-      "type": "array"
     }
   },
   "validations": [],

@@ -4,7 +4,7 @@
   "idInjection": true,
   "options": {
     "validateUpsert": true,
-    "strictObjectIDCoercion":true
+    "strictObjectIDCoercion": true
   },
   "properties": {
     "userId": {
@@ -19,9 +19,7 @@
       "type": "boolean"
     },
     "comment": {
-      "type": [
-        "string"
-      ]
+      "type": "Object"
     },
     "username": {
       "type": "string"

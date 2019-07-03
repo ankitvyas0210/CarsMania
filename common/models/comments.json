@@ -19,7 +19,9 @@
       "type": "boolean"
     },
     "comment": {
-      "type": "Object"
+      "type": [
+        "Object"
+      ]
     },
     "username": {
       "type": "string"
